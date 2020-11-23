@@ -2,7 +2,7 @@
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
-Complete Ruby on Rails Developers
+First test demo on Complete Ruby on Rails Developers by Tram Lai
 Things you may want to cover:
 
 * Ruby version
