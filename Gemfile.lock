@@ -58,6 +58,11 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    bg (0.0.5)
+      activejob (>= 5.0)
+      activerecord (>= 5.0)
+      concurrent-ruby (>= 1.0)
+      globalid (>= 0.3)
     bindex (0.8.1)
     bootsnap (1.5.1)
       msgpack (~> 1.0)
@@ -190,6 +195,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  bg
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
