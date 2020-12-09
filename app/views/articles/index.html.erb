@@ -13,14 +13,18 @@
   </thead>
 
 <tbody>
-  <% @article.each do |articles| %>
+ <% @article.each do |articles| %>
   <tr>
     <td><strong><%= articles.title %></strong></td>
     <td><strong><%= articles.description %></strong></td>
-    <td>some action</td>
+    <td><%= link_to 'Edit', edit_article_path(articles) %></td>
+    <td><%= link_to 'Show', article_path(articles) %></td>
+    <td><%= link_to 'Delete', article_path(articles), method: :delete %></td>
   </tr>
       <% end %>
 </tbody>
 
 </table>
+
+<p><%= link_to 'New Article', new_article_path %></p>
 <br>
